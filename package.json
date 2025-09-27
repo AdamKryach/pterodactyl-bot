@@ -1,0 +1,27 @@
+{
+  "name": "pterodactyl-bot",
+  "author": "Luxxy-GF",
+  "description": "A bot for Pterodactl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start pm2.json",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^0.25.0",
+    "common-tags": "^1.8.2",
+    "discord.js": "^13.6.0",
+    "glob": "^7.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7",
+    "prettysize": "^2.0.0",
+    "quick.db": "^7.1.3",
+    "util": "^0.12.4"
+  }
+}
